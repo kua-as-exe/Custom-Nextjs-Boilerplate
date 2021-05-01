@@ -1,5 +1,5 @@
 {
-  "name": "first-site",
+  "name": "nextjs-boilerplate",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,8 +8,17 @@
     "start": "next start"
   },
   "dependencies": {
+    "bootstrap": "^4.6.0",
     "next": "10.2.0",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-bootstrap": "^1.5.2",
+    "react-dom": "17.0.2",
+    "sass": "^1.32.12",
+    "styled-components": "^5.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^15.0.1",
+    "@types/react": "^17.0.4",
+    "typescript": "^4.2.4"
   }
 }

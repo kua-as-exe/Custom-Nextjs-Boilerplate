@@ -1,3 +1,15 @@
+# Custom next.js boilerplate
+
+## This template supports:
+
+- Typescript
+- Bootstrap
+- ReactBootstrap
+- Styled Components
+
+
+> This is based in an usual next.js app, so the traditional instructions to make it work will be the following:
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

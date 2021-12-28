@@ -5,8 +5,7 @@
 - Typescript
 - Bootstrap
 - ReactBootstrap
-- Styled Components
-
+- Emotion
 
 > This is based in an usual next.js app, so the traditional instructions to make it work will be the following:
 

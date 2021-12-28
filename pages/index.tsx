@@ -1,5 +1,10 @@
 import { Button } from 'react-bootstrap'
-import Layout from '../components/layout'
+import { css, styled } from 'styles/emotion'
+import Layout from 'components/layout'
+
+const Title = styled.h1`
+  color: red;
+`
 
 const Home: React.FC = () => {
   const title = 'aleluya'
@@ -11,8 +16,15 @@ const Home: React.FC = () => {
   return (
     <Layout>
       <p>{title}</p>
+      <Title>{title}</Title>
       <h1>Hola</h1>
-      <Button variant="primary" onClick={() => handleLog('Hola')}>
+      <Button
+        variant="primary"
+        className={css`
+          color: cyan;
+        `}
+        onClick={() => handleLog('Hola')}
+      >
         Hola
       </Button>
       <Button variant="success">Hola</Button>

@@ -1,16 +1,13 @@
-import styled from 'styled-components';
+import styled from '@emotion/styled'
 
 const Footer = styled.footer`
-  
+  background-color: red;
 `
 
 const FooterComponent = () => {
-
   return (
     <Footer>
-      <span>
-        Hola
-      </span>
+      <span>Hola</span>
     </Footer>
   )
 }
